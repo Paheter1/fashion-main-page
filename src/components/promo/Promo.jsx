@@ -7,7 +7,7 @@ const Promo = () => {
             <div className="container">
                 <div className="promo__content">
                     <div className="promo__text">TEXT</div>
-                    <div className="promo__img">
+                    <div className="promo__imgsssssssss">
                         <img src={promoImg} alt="Promo" />
                     </div>
                 </div>
