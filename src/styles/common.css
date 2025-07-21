@@ -1,0 +1,16 @@
+:root{
+    --textColor: #000;
+    --yellow: #EBD96B;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--textColor);
+}
+
+.container{
+    max-width: 1780px; /* макс ширина 1720 пикс, но из за ресета.css в нем бордер бокс мы добавляем +60px 1720+60=1780   */
+    margin: 0 auto; /* по центру */
+    padding: 0 30px; /* отступы по бокам шоб не прилипало к экрану по бокам*/
+}
