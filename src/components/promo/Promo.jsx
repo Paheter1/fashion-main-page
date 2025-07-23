@@ -10,9 +10,9 @@ const Promo = () => {
 
                         <div className="promo__title">
                             <span>LET’S</span>
-                             EXPLORE
-                            <span>UNIQUE</span> 
-                             CLOTHES.
+                            EXPLORE
+                            UNIQUE 
+                            CLOTHES.
 
                         </div>
 
