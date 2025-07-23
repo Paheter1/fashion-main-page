@@ -39,20 +39,7 @@
 }
 
 .promo__btn-wrapper{
-    display: flex;
-    column-gap: 34px;
-    align-items: center;
-}
 
-.promo__btn-wrapper::before{
-    content: "";
-    display: inline-block;
-    
-
-    width: 190px;
-    height: 32px;
-
-    background-image: url('./../../img/icons/decor-yellow.svg');
 }
 
 .promo__btn{
