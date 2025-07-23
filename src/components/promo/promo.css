@@ -68,3 +68,32 @@
     text-align: left;
     
 }
+
+.highlight{
+    position: relative;
+    display: inline-block;
+}
+.highlight span{
+    position: relative;
+    z-index: 1;
+}
+
+.highlight::before{
+    content: "";
+    display: block;
+    position: absolute;
+
+    top: -12px;
+    bottom: 0px;
+    left: -40px;
+    right: -160px;
+    transform: rotate(-2deg);
+
+    background-color: #FFF;
+}
+
+
+.highlight--yellow::before{
+    background-color: var(--yellow);
+    right: -110px;
+}

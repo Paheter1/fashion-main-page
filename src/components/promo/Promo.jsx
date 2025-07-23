@@ -3,15 +3,19 @@ import promoImg from './../../img/images/header-img.jpg'
 
 const Promo = () => {
     return (
-        <section className="Promo">
+        <section className="promo">
             <div className="container">
                 <div className="promo__content">
                     <div className="promo__text">
 
                         <div className="promo__title">
-                            <span>LET’S</span>
+                            <span className='highlight'>
+                                <span>LET’S</span>
+                            </span>
                             EXPLORE
-                            UNIQUE 
+                            <span className='highlight highlight--yellow'>
+                                <span>UNIQUE</span>
+                            </span> 
                             CLOTHES.
 
                         </div>
